@@ -22,12 +22,13 @@
     "exactOptionalPropertyTypes": false
   },
   "include": [
-    "api/**/*",
-    "*.ts"
+    "api/**/*"
   ],
   "exclude": [
     "node_modules",
     "dist",
-    ".vercel"
+    ".vercel",
+    "local-test.ts",
+    "*.backup"
   ]
 }
