@@ -1,0 +1,32 @@
+{
+  "name": "autoparts-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram бот для поиска автозапчастей через Perplexity AI",
+  "main": "api/webhook.ts",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc --noEmit",
+    "deploy": "vercel --prod",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "telegram-bot",
+    "autoparts",
+    "perplexity",
+    "automotive",
+    "vin-decoder"
+  ],
+  "author": "AutoParts Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/node": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
