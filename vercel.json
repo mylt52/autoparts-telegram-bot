@@ -1,14 +1,3 @@
 {
-  "version": 2,
-  "functions": {
-    "api/webhook.ts": {
-      "maxDuration": 30
-    }
-  },
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    }
-  },
-  "regions": ["fra1"]
+  "version": 2
 }
